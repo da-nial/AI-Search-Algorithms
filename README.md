@@ -1,20 +1,20 @@
 # RoboPush: Navigating a Board Game with Search Algorithms
 
 This project implements three search algorithms, Iterative Deepening Search (IDS), Bidirectional Breadth-First Search (
-BBFS), and A* algorithm, to solve a simple board game where a robot must push an object (a pat of butter) to a
+BBFS), and A* algorithm from scratch, to solve a simple board game where a robot must push an object (a pat of butter) to a
 destination (a plate) while avoiding fixed obstacles.
 
 ![Sample Problem](docs/sample.png)
 
-In the figure above, R represents the Robot, B's represent the butters, and P's represent the plates. Light brown cells
-have a cost of 1, and dark brown cells have a cost of 2.
+In the figure above, R represents the Robot, B's represent the butters, and P's represent the plates. Brown cells
+have a cost of 1, and red cells have a cost of 2.
 
 ## Solution Algorithms
 
 - **IDS Algorithm**: An iterative graph searching strategy that combines the benefits of Depth-First Search (DFS) and
   Breadth-First Search (BFS) while using less memory in each iteration.
 - **Bidirectional BFS**: A graph search algorithm that runs two simultaneous searches, one forward from the initial
-  state and one backward from the goal, stopping when the two meet. This approach is often faster than traditional
+  state and one backward from the goal, stopping when the two meet. This approach is often faster than the traditional
   BFS.
 - **A* Algorithm**: A search algorithm that finds the shortest path between an initial and a final point by combining
   actual and estimated costs using an admissible heuristic.
@@ -43,7 +43,7 @@ R R U U L R D
 7
 ```
 
-The first line contains the minimal sequence of movements. The next lines contain the cost of the solution, and the
+The first line contains a minimal sequence of movements. The following lines contain the cost of the solution and the
 depth of it.
 
 ## Implementation Details
