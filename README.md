@@ -16,7 +16,7 @@ have a cost of 1, and red cells have a cost of 2.
 - **Bidirectional BFS**: A graph search algorithm that runs two simultaneous searches, one forward from the initial
   state and one backward from the goal, stopping when the two meet. This approach is often faster than the traditional
   BFS.
-- **A* Algorithm**: A search algorithm that finds the shortest path between an initial and a final point by combining
+- **A\* Algorithm**: A search algorithm that finds the shortest path between an initial and a final point by combining
   actual and estimated costs using an admissible heuristic.
 
 ## Input and Output Formats
