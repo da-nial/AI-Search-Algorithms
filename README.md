@@ -64,8 +64,8 @@ python BBFS.py [TESTCASE] input/test5.txt
 python A_Star.py [TESTCASE] input/test5.txt [MAX_DEPTH] 250
 ```
 
-The search algorithms are implemented from scratch. For the GUI visualization, a slightly modified version of
-the [game2dboard](https://github.com/mjbrusso/game2dboard/) library is used.
+The search algorithms are implemented from scratch. For the GUI and CLI visualization, a slightly modified version of
+the [game2dboard](https://github.com/mjbrusso/game2dboard/) and [TableIt](https://github.com/SuperMaZingCoder/TableIt) libraries are used.
 
 ## Course Information
 
